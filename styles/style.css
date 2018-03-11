@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body{
+  background:url('http://www.gdcv.co.uk/images/backgrounds/InvestorLoginPage.jpg') no-repeat center center fixed;
+  margin:0;
+}
+.login{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.login button{
+  display:inline-block;
+  width:200px;
+  height:10%;
+}
+
+.login a{
+  text-decoration: none;
+  border:none;
+  color:white;
+}
+.google{
+  background-color: #D14639;
+  padding:20px;
+  cursor:pointer;
+}
+
+.facebook{
+  background-color: #4267B2;
+  padding:20px;
+    cursor:pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.text{
+  position: relative;
+  top:100px;
+  text-align:center;
+  color:white;
+  font-size:40px;
+   font-family:Titillium Web;
+}
